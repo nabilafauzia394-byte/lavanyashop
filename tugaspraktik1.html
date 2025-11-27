@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Lavanya</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #ffeef5;
+            font-family: "Poppins", sans-serif;
+        }
+        .navbar {
+            background-color: #ffb6d9 !important;
+        }
+        .hero {
+            background: linear-gradient(135deg, #ffbedc, #ffd6e9);
+            padding: 80px 0;
+            text-align: center;
+            color: #6a2d50;
+        }
+        .product-card {
+            background-color: #fff0f7;
+            border-radius: 15px;
+            border: none;
+            transition: 0.3s;
+        }
+        .product-card:hover {
+            transform: scale(1.05);
+        }
+        .btn-pink {
+            background-color: #ff8fc7;
+            color: white;
+        }
+        .btn-pink:hover {
+            background-color: #ff6fb6;
+            color: white;
+        }
+        footer {
+            background-color: #ffb6d9;
+            padding: 20px 0;
+            text-align: center;
+            color: #6a2d50;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-dark" href="#">LAVANYA shop🛍️</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link text-dark" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="#produk">Produk</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="#promo">Promo</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="#kontak">Kontak</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h1 class="fw-bold">welcome to Lavanya shop</h1>
+            <p class="lead mt-3">Lavanya – Where Beauty Meets Grace✨</p>
+            <p class="lead mt-3">tempatnya produk wanita yang anggun dan premium,
+                kami menghadirkan fashion,aksesoris,skincare,dan berbagai pilihan cantik lainnya untuk menunjang gaya perempuan modern</p>
+                <p class="lead mt-2">nikmati pengalaman belanja yang nyaman,cepat,dan aman dengan layanan yang ramah.</p>
+                <p class="lead mt-2">temukan produk favoritmu dan tampil lebih percaya diri setiap hari.</p>
+            <a href="#produk" class="btn btn-light px-4 mt-3">Lihat Produk</a>
+        </div>
+    </section>
+
+    <!-- PRODUK -->
+    <section class="py-5" id="produk">
+        <div class="container">
+            <h2 class="text-center text-dark fw-bold mb-4">Produk Unggulan</h2>
+
+            <div class="row g-4">
+
+                <!-- PRODUK 1 -->
+                <div class="col-md-3">
+                    <div class="card product-card shadow-sm">
+                        <img src="tas dior.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">Tas</h5>
+                            <p class="card-text text-secondary">tas yang super duper elegant.</p>
+                            <p class="fw-bold text-dark">Rp 85.000.000</p>
+                            <button class="btn btn-pink w-100">Beli Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PRODUK 2 -->
+                <div class="col-md-3">
+                    <div class="card product-card shadow-sm">
+                        <img src="sk.jpg" class="card-img-top" >
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">skincare yang aman </h5>
+                            <p class="card-text text-secondary">skincare.</p>
+                            <p class="fw-bold text-dark">Rp 120.000.000</p>
+                            <button class="btn btn-pink w-100">Beli Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PRODUK 3 -->
+                <div class="col-md-3">
+                    <div class="card product-card shadow-sm">
+                        <img src="some by me.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">skincare</h5>
+                            <p class="card-text text-secondary">Cocok untuk mencerahkan.</p>
+                            <p class="fw-bold text-dark">Rp 150.000</p>
+                            <button class="btn btn-pink w-100">Beli Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PRODUK 4 -->
+                <div class="col-md-3">
+                    <div class="card product-card shadow-sm">
+                        <img src="puma.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">Sepatu Pink</h5>
+                            <p class="card-text text-secondary">Nyaman dipakai & stylish.</p>
+                            <p class="fw-bold text-dark">Rp 170.000.000</p>
+                            <button class="btn btn-pink w-100">Beli Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                 <!-- PRODUK 5 -->
+                <div class="col-md-3">
+                    <div class="card product-card shadow-sm">
+                        <img src="baju pm.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">baju tidur</h5>
+                            <p class="card-text text-secondary">Nyaman dipakai & stylish.</p>
+                            <p class="fw-bold text-dark">Rp 70.000.000</p>
+                            <button class="btn btn-pink w-100">Beli Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+        
+
+
+
+             <!-- PRODUK 6 -->
+                <div class="col-md-3">
+                    <div class="card product-card shadow-sm">
+                        <img src="parfum.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">parfum yang wanginya tahan 5 hari</h5>
+                            <p class="card-text text-secondary">wangi tahan lama.</p>
+                            <p class="fw-bold text-dark">Rp 1.000.000</p>
+                            <button class="btn btn-pink w-100">Beli Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                 <!-- PRODUK 7 -->
+                <div class="col-md-3">
+                    <div class="card product-card shadow-sm">
+                        <img src="loreal.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">hair care</h5>
+                            <p class="card-text text-secondary">membuat rambut lembut dan wangi.</p>
+                            <p class="fw-bold text-dark">Rp 170.000</p>
+                            <button class="btn btn-pink w-100">Beli Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                
+ <!-- PRODUK 8 -->
+                <div class="col-md-3">
+                    <div class="card product-card shadow-sm">
+                        <img src="dior.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">make up set</h5>
+                            <p class="card-text text-secondary">aman di pakai seharian.</p>
+                            <p class="fw-bold text-dark">Rp 170.000.000</p>
+                            <button class="btn btn-pink w-100">Beli Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PRODUK 9 -->
+                <div class="col-md-3">
+                    <div class="card product-card shadow-sm">
+                        <img src="keras.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">hair care</h5>
+                            <p class="card-text text-secondary">cocok untuk yang rambut rusak.</p>
+                            <p class="fw-bold text-dark">Rp 800.000</p>
+                            <button class="btn btn-pink w-100">Beli Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- PRODUK 10 -->
+                <div class="col-md-3">
+                    <div class="card product-card shadow-sm">
+                        <img src="ysl.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark"> heels</h5>
+                            <p class="card-text text-secondary">Nyaman dipakai & stylish.</p>
+                            <p class="fw-bold text-dark">Rp 170.000.000</p>
+                            <button class="btn btn-pink w-100">Beli Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+
+
+ <!-- PRODUK 11 -->
+                <div class="col-md-3">
+                    <div class="card product-card shadow-sm">
+                        <img src="dove.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">body care</h5>
+                            <p class="card-text text-secondary">Nyaman dipakai & lembut tidak membuat kering.</p>
+                            <p class="fw-bold text-dark">Rp 780.000</p>
+                            <button class="btn btn-pink w-100">Beli Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+
+
+ <!-- PRODUK 12 -->
+                <div class="col-md-3">
+                    <div class="card product-card shadow-sm">
+                        <img src="grace.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">body care</h5>
+                            <p class="card-text text-secondary">membantu mencerahkan kulit.</p>
+                            <p class="fw-bold text-dark">Rp 270.000</p>
+                            <button class="btn btn-pink w-100">Beli Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- PROMO -->
+    <section class="py-5 bg-light" id="promo">
+        <div class="container text-center">
+            <h2 class="text-dark fw-bold">Promo Spesial Bulan Ini 🎉</h2>
+            <p class="lead mt-3 text-secondary">Diskon hingga 40% untuk semua produk!</p>
+            <a href="#produk" class="btn btn-pink mt-2 px-4">Belanja Sekarang</a>
+        </div>
+    </section>
+
+    <!-- FORM KONTAK -->
+    <section class="py-5" id="kontak">
+        <div class="container">
+            <h2 class="text-center text-dark fw-bold mb-4">Hubungi Kami</h2>
+
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form class="p-4 shadow-sm rounded" style="background-color:#fff0f7;">
+                        <div class="mb-3">
+                            <label class="form-label">Nama</label>
+                            <input type="text" class="form-control" placeholder="Masukkan nama Anda">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-control" placeholder="Masukkan email Anda">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Pesan</label>
+                            <textarea class="form-control" rows="4" placeholder="Tulis pesan..."></textarea>
+                        </div>
+                        <button class="btn btn-pink w-100">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p class="mb-0">© 2025 LAVANYA shop — Toko Online Bernuansa Pink Soft 🛍️</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
